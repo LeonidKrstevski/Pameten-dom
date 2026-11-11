@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="mk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Контролен панел за паметен дом">
+    <meta name="keywords" content="Smart Home, Sensors, HTML5">
+    <meta name="author" content="Леонид Крстевски">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <title>Паметен Дом</title>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        
+                <!-- HEADER -->
+        
+                <header>
+                    <h1>Контролен Панел за Паметен Дом</h1>
+                    <p>Следење на сензори во сите простории</p>
+                </header>
+        
+                <hr>
+        
+                <!-- NAVIGATION -->
+        
+                <nav>
+                    <h2>Мени</h2>
+        
+                    <ul>
+                        <li><a href="#spalna">Спална</a></li>
+                        <li><a href="#dnevna">Дневна</a></li>
+                        <li><a href="#kujna">Кујна</a></li>
+                        <li><a href="#gradina">Градина</a></li>
+                        <li><a href="#notifikacii">Нотификации</a></li>
+                    </ul>
+                </nav>
+        
+                <hr>
+        
+                <!-- SPALNA -->
+        
+                <section id="spalna">
+        
+                    <h2>Спална Соба</h2>
+        
+                    <table border="1">
+        
+                        <tr>
+                            <th>Сензор</th>
+                            <th>Вредност</th>
+                            <th>Статус</th>
+                            <th>Батерија</th>
+                        </tr>
+        
+                        <tr>
+                            <td>Температура</td>
+                            <td>22°C</td>
+                            <td>Вклучен</td>
+                            <td>
+                                <progress value="80" max="100"></progress>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>Влажност</td>
+                            <td>50%</td>
+                            <td>Вклучен</td>
+                            <td>
+                                <progress value="70" max="100"></progress>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>Светлина</td>
+                            <td>150 lux</td>
+                            <td>Вклучен</td>
+                            <td>
+                                <progress value="90" max="100"></progress>
+                            </td>
+                        </tr>
+        
+                    </table>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- DNEVNA -->
+        
+                <section id="dnevna">
+        
+                    <h2>Дневна Соба</h2>
+        
+                    <table border="1">
+        
+                        <tr>
+                            <th>Сензор</th>
+                            <th>Вредност</th>
+                            <th>Статус</th>
+                            <th>Батерија</th>
+                        </tr>
+        
+                        <tr>
+                            <td>Температура</td>
+                            <td>26°C</td>
+                            <td>Вклучен</td>
+                            <td>
+                                <progress value="60" max="100"></progress>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>CO₂</td>
+                            <td>850 ppm</td>
+                            <td>Вклучен</td>
+                            <td>
+                                <progress value="85" max="100"></progress>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>Светлина</td>
+                            <td>300 lux</td>
+                            <td>Вклучен</td>
+                            <td>
+                                <progress value="75" max="100"></progress>
+                            </td>
+                        </tr>
+        
+                    </table>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- KUJNA -->
+        
+                <section id="kujna">
+        
+                    <h2>Кујна</h2>
+        
+                    <table border="1">
+        
+                        <tr>
+                            <th>Сензор</th>
+                            <th>Вредност</th>
+                            <th>Статус</th>
+                            <th>Батерија</th>
+                        </tr>
+        
+                        <tr>
+                            <td>Температура</td>
+                            <td>27°C</td>
+                            <td>Вклучен</td>
+                            <td><progress value="80" max="100"></progress></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Гас</td>
+                            <td>Нормално</td>
+                            <td>Вклучен</td>
+                            <td><progress value="70" max="100"></progress></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Чад</td>
+                            <td>Нема</td>
+                            <td>Вклучен</td>
+                            <td><progress value="90" max="100"></progress></td>
+                        </tr>
+        
+                    </table>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- GRADINA -->
+        
+                <section id="gradina">
+        
+                    <h2>Градина</h2>
+        
+                    <table border="1">
+        
+                        <tr>
+                            <th>Сензор</th>
+                            <th>Вредност</th>
+                            <th>Статус</th>
+                            <th>Батерија</th>
+                        </tr>
+        
+                        <tr>
+                            <td>Влажност на почва</td>
+                            <td>40%</td>
+                            <td>Вклучен</td>
+                            <td><progress value="60" max="100"></progress></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Температура</td>
+                            <td>18°C</td>
+                            <td>Вклучен</td>
+                            <td><progress value="75" max="100"></progress></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Дожд</td>
+                            <td>Нема</td>
+                            <td>Вклучен</td>
+                            <td><progress value="50" max="100"></progress></td>
+                        </tr>
+        
+                    </table>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- PRAVILA -->
+        
+                <section>
+        
+                    <h2>Правила</h2>
+        
+                    <ol>
+                        <li>Дневна: 20°C - 24°C</li>
+                        <li>Спална: влажност 40% - 60%</li>
+                        <li>Кујна: не смее да има гас</li>
+                        <li>Градина: влажност над 30%</li>
+                    </ol>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- NOTIFIKACII -->
+        
+                <section id="notifikacii">
+        
+                    <h2>Нотификации</h2>
+        
+                    <details>
+                        <summary>Прикажи активни предупредувања</summary>
+        
+                        <ul>
+                            <li>Температурата во дневна е 26°C</li>
+                            <li>Температурата е над дозволената граница</li>
+                            <li>Батерија на градински сензор е 50%</li>
+                        </ul>
+        
+                    </details>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- FORMA -->
+        
+                <section>
+        
+                    <h2>Форма за пријава на проблем</h2>
+        
+                    <form>
+        
+                        <p>
+                            Име:
+                            <input type="text" required>
+                        </p>
+        
+                        <p>
+                            Email:
+                            <input type="email" required>
+                        </p>
+        
+                        <p>
+                            Просторија:
+                            <select>
+                                <option>Спална</option>
+                                <option>Дневна</option>
+                                <option>Кујна</option>
+                                <option>Градина</option>
+                            </select>
+                        </p>
+        
+                        <p>
+                            Опис:
+                        </p>
+        
+                        <textarea rows="5" cols="40"></textarea>
+        
+                        <br><br>
+        
+                        <input type="submit" value="Испрати">
+                        <input type="reset" value="Исчисти">
+        
+                    </form>
+        
+                </section>
+        
+                <hr>
+        
+                <!-- FOOTER -->
+        
+                <footer>
+                    <p>Домашна задача #1 - Основи на Web Програмирање</p>
+                </footer>
+            
+    </div>
+
+
+</body>
+
+</html>
